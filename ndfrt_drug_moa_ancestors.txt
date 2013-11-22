@@ -1,39 +1,39 @@
 Disease-modifying antirheumatic drugs (DMARDs)
 ----------------------------------------------
-AZATHIOPRINE (C0004482) has MoA ancestors: ["Nucleic Acid Synthesis Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-CYCLOSPORINE (C0010592) has MoA ancestors: ["Unknown Cellular or Molecular Interaction", "Cellular or Molecular Interactions"]
-HYDROXYCHLOROQUINE (C0020336) has MoA ancestors: ["Enzyme Inhibitors", "Cellular or Molecular Interactions", "Enzyme Interactions", "Physiochemical Activity", "Cellular or Molecular Interactions"]
-LEFLUNOMIDE (C0063041) has MoA ancestors: ["Nucleic Acid Synthesis Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-METHOTREXATE (C0025677) has MoA ancestors: ["Dihydrofolate Reductase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions", "Folic Acid Metabolism Inhibitors", "Nucleic Acid Synthesis Inhibitors", "Nucleoside Synthesis Inhibitors", "Thymidylate Synthetase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions", "Nucleic Acid Synthesis Inhibitors"]
-SULFASALAZINE (C0036078) has MoA ancestors: ["Cyclooxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
+AZATHIOPRINE (C0004482) has MoA ancestors: ["Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions", "Nucleic Acid Synthesis Inhibitors"]
+CYCLOSPORINE (C0010592) has MoA ancestors: ["Cellular or Molecular Interactions", "Unknown Cellular or Molecular Interaction"]
+HYDROXYCHLOROQUINE (C0020336) has MoA ancestors: ["Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions", "Physiochemical Activity"]
+LEFLUNOMIDE (C0063041) has MoA ancestors: ["Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions", "Nucleic Acid Synthesis Inhibitors"]
+METHOTREXATE (C0025677) has MoA ancestors: ["Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Dihydrofolate Reductase Inhibitors", "Enzyme Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions", "Enzyme Interactions", "Folic Acid Metabolism Inhibitors", "Nucleic Acid Synthesis Inhibitors", "Nucleic Acid Synthesis Inhibitors", "Nucleoside Synthesis Inhibitors", "Thymidylate Synthetase Inhibitors"]
+SULFASALAZINE (C0036078) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
 TOCILIZUMAB (C1609165) has MoA ancestors: []
 
 Glucocorticoids
 ---------------
-METHYLPREDNISOLONE (C0025815) has MoA ancestors: ["Glucocorticoid Receptor Agonists", "Cellular or Molecular Interactions", "Corticosteroid Hormone Receptor Agonists", "Hormone Receptor Agonists", "Hormone Receptor Interactions", "Receptor Interactions", "Steroid Hormone Receptor Agonists", "Transcription Factor Activity", "Lipoxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-PREDNISOLONE (C0032950) has MoA ancestors: ["Glucocorticoid Receptor Agonists", "Cellular or Molecular Interactions", "Corticosteroid Hormone Receptor Agonists", "Hormone Receptor Agonists", "Hormone Receptor Interactions", "Receptor Interactions", "Steroid Hormone Receptor Agonists", "Transcription Factor Activity", "Lipoxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-PREDNISONE (C0032952) has MoA ancestors: ["Glucocorticoid Receptor Agonists", "Cellular or Molecular Interactions", "Corticosteroid Hormone Receptor Agonists", "Hormone Receptor Agonists", "Hormone Receptor Interactions", "Receptor Interactions", "Steroid Hormone Receptor Agonists", "Transcription Factor Activity", "Lipoxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
+METHYLPREDNISOLONE (C0025815) has MoA ancestors: ["Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Corticosteroid Hormone Receptor Agonists", "Enzyme Inhibitors", "Enzyme Interactions", "Glucocorticoid Receptor Agonists", "Hormone Receptor Agonists", "Hormone Receptor Interactions", "Lipoxygenase Inhibitors", "Receptor Interactions", "Steroid Hormone Receptor Agonists", "Transcription Factor Activity"]
+PREDNISOLONE (C0032950) has MoA ancestors: ["Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Corticosteroid Hormone Receptor Agonists", "Enzyme Inhibitors", "Enzyme Interactions", "Glucocorticoid Receptor Agonists", "Hormone Receptor Agonists", "Hormone Receptor Interactions", "Lipoxygenase Inhibitors", "Receptor Interactions", "Steroid Hormone Receptor Agonists", "Transcription Factor Activity"]
+PREDNISONE (C0032952) has MoA ancestors: ["Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Corticosteroid Hormone Receptor Agonists", "Enzyme Inhibitors", "Enzyme Interactions", "Glucocorticoid Receptor Agonists", "Hormone Receptor Agonists", "Hormone Receptor Interactions", "Lipoxygenase Inhibitors", "Receptor Interactions", "Steroid Hormone Receptor Agonists", "Transcription Factor Activity"]
 
 
 
 Nonsteroidal antiinflammatory drugs (NSAIDs)
 --------------------------------------------
-MELOXICAM (C0083381) has MoA ancestors: ["Cyclooxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-CELECOXIB (C0538927) has MoA ancestors: ["Cyclooxygenase 2 Inhibitors", "Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
-ROFECOXIB (C0762662) has MoA ancestors: ["Cyclooxygenase 2 Inhibitors", "Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
-VALDECOXIB (C0913246) has MoA ancestors: ["Cyclooxygenase 2 Inhibitors", "Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
+MELOXICAM (C0083381) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
+CELECOXIB (C0538927) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase 2 Inhibitors", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
+ROFECOXIB (C0762662) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase 2 Inhibitors", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
+VALDECOXIB (C0913246) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase 2 Inhibitors", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
 CUI not found: C0972314
-DICLOFENAC (C0012091) has MoA ancestors: ["Cyclooxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-KETOPROFEN (C0022635) has MoA ancestors: ["Cyclooxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
-NAPROXEN (C0027396) has MoA ancestors: ["Cyclooxygenase Inhibitors", "Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
+DICLOFENAC (C0012091) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
+KETOPROFEN (C0022635) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
+NAPROXEN (C0027396) has MoA ancestors: ["Cellular or Molecular Interactions", "Cyclooxygenase Inhibitors", "Enzyme Inhibitors", "Enzyme Interactions"]
 CUI not found: C0972314
 
 Tumor necrosis factor (TNF) inhibitors
 --------------------------------------
 ABATACEPT (C1619966) has MoA ancestors: []
-ADALIMUMAB (C1122087) has MoA ancestors: ["Biological Response Modifiers", "Cellular or Molecular Interactions", "Immunologic Factors", "Immunologic and Biological Factors", "Tumor Necrosis Factor alpha Receptor Blocking Activity", "Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions"]
-ANAKINRA (C0245109) has MoA ancestors: ["Enzyme Inhibitors", "Cellular or Molecular Interactions", "Enzyme Interactions"]
-ETANERCEPT (C0717758) has MoA ancestors: ["Biological Response Modifiers", "Cellular or Molecular Interactions", "Immunologic Factors", "Immunologic and Biological Factors", "Tumor Necrosis Factor alpha Receptor Blocking Activity", "Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions", "Tumor Necrosis Factor beta Receptor Blocking Activity", "Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions"]
-INFLIXIMAB (C0666743) has MoA ancestors: ["Tumor Necrosis Factor alpha Receptor Blocking Activity", "Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions"]
-RITUXIMAB (C0393022) has MoA ancestors: ["Antibody-Receptor Interactions", "Antibody Interactions", "Cellular or Molecular Interactions", "Immunologic Factors", "Immunologic and Biological Factors", "Receptor Interactions"]
+ADALIMUMAB (C1122087) has MoA ancestors: ["Biological Response Modifiers", "Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Immunologic Factors", "Immunologic and Biological Factors", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions", "Tumor Necrosis Factor alpha Receptor Blocking Activity"]
+ANAKINRA (C0245109) has MoA ancestors: ["Cellular or Molecular Interactions", "Enzyme Inhibitors", "Enzyme Interactions"]
+ETANERCEPT (C0717758) has MoA ancestors: ["Biological Response Modifiers", "Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Cytokine Receptor Superfamily Interactions", "Immunologic Factors", "Immunologic and Biological Factors", "Receptor Interactions", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions", "Tumor Necrosis Factor Receptor Interactions", "Tumor Necrosis Factor alpha Receptor Blocking Activity", "Tumor Necrosis Factor beta Receptor Blocking Activity"]
+INFLIXIMAB (C0666743) has MoA ancestors: ["Cellular or Molecular Interactions", "Cytokine Receptor Superfamily Interactions", "Receptor Interactions", "Tumor Necrosis Factor Receptor Blocking Activity", "Tumor Necrosis Factor Receptor Interactions", "Tumor Necrosis Factor alpha Receptor Blocking Activity"]
+RITUXIMAB (C0393022) has MoA ancestors: ["Antibody Interactions", "Antibody-Receptor Interactions", "Cellular or Molecular Interactions", "Immunologic Factors", "Immunologic and Biological Factors", "Receptor Interactions"]
 TOCILIZUMAB (C1609165) has MoA ancestors: []

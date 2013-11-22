@@ -119,7 +119,7 @@ cuis.each do |cui|
       memo
     end
 
-    puts "#{child[:name]} (#{cui}) has MoA ancestors: #{moa_tree.map{ |c| c[:name] }}"
+    puts "#{child[:name]} (#{cui}) has MoA ancestors: #{moa_tree.map{ |c| c[:name] }.sort}"
   else
     puts "CUI not found: #{cui}"
   end
