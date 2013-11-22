@@ -1,0 +1,22 @@
+{
+  "groupConcepts": [
+    {
+      "concept": [
+        {
+          "conceptKind": "DRUG_KIND",
+          "conceptName": "MELOXICAM",
+          "conceptNui": "N0000148649"
+        },
+        {
+          "conceptKind": "INGREDIENT_KIND",
+          "conceptName": "meloxicam",
+          "conceptNui": "N0000005948"
+        }
+      ]
+    }
+  ],
+  "responseType": {
+    "inputIdString": "C0083381",
+    "inputIdType": "UMLSCUI"
+  }
+}
