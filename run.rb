@@ -20,12 +20,6 @@ class DrugDefinitionResource
     first_concept_in_definition(json)
   end
 
-  # def find_first_parent_concept_by_nui(nui)
-  #   response = @connection.get "/REST/Ndfrt/parentConcepts/nui=#{nui}&transitive=false"
-  #   json = JSON.parse(response.body)
-  #   first_concept_in_definition(json)
-  # end
-
   def find_parent_concepts_by_nui(nui)
     response = @connection.get "/REST/Ndfrt/parentConcepts/nui=#{nui}&transitive=true"
     json = JSON.parse(response.body)
@@ -75,14 +69,11 @@ end
 
 resource = DrugDefinitionResource.new
 
-# print "Enter a CUI: "
-# cui = gets
-# cui.chomp!
-
 dmard_cuis = %w(C0004482 C0010592 C0020336 C0063041 C0025677 C0036078 C1609165)
 gluc_cuis = %w(C0025815 C0032950 C0032952)
 nsaid_cuis = %w(C0083381 C0538927 C0762662 C0913246 C0972314 C0012091 C0022635 C0027396 C0972314)
 tnf_cuis = %w(C1619966 C1122087 C0245109 C0717758 C0666743 C0393022 C1609165)
+
 cuis = dmard_cuis + gluc_cuis + nsaid_cuis + tnf_cuis
 
 cuis.each do |cui|
@@ -92,42 +83,11 @@ cuis.each do |cui|
     nui = child[:nui]
 
     if nui
-      # tree = []
-      # while(nui)
-        concepts = resource.find_parent_concepts_by_nui(nui)
-        # puts "concepts: #{concepts}"
-        # nui = nil
-        # puts "concept: #{concept.inspect}"
-        # nui = concept[:nui] if concept
-        # tree << concept[:name] if concept
-      # end
+      concepts = resource.find_parent_concepts_by_nui(nui)
+
       puts "#{child[:name]} (#{cui}) has ancesstors: #{concepts.map{ |c| c[:name] }}"
     end
   else
     puts "CUI #{cui} not found"
   end
-  
 end
-
-# cuis.each do |cui|
-#   child = resource.find_first_concept_by_cui(cui)
-
-#   if child
-#     nui = child[:nui]
-
-#     if nui
-#       tree = []
-#       while(nui)
-#         concept = resource.find_first_parent_concept_by_nui(nui)
-#         nui = nil
-#         # puts "concept: #{concept.inspect}"
-#         nui = concept[:nui] if concept
-#         tree << concept[:name] if concept
-#       end
-#       puts "#{child[:name]} (#{cui}) has ancesstors: #{tree}"
-#     end
-#   else
-#     puts "CUI #{cui} not found"
-#   end
-  
-# end
